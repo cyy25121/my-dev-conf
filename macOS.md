@@ -1,4 +1,4 @@
-macos工作環境設置
+macOS工作環境設置
 =================
 * Preposition
   * Homebrew
@@ -16,6 +16,10 @@ macos工作環境設置
   * Computer Vision
   * System
 * TODO
+
+---
+* macOS High Sierra 10.13.4
+* MacBook Pro, late 2013 
 
 ---
 
@@ -66,11 +70,13 @@ curl http://j.mp/spf13-vim3 -L -o - | sh
 ## Sublime
 * 簡潔且開啟速度又快的Text editor
 * 至官網下載
+* 安裝Package control：https://packagecontrol.io/installation
 
 在Terminal底下開啟`Sublime`的方法
 ```
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
+
 ---
 
 # Package / Plugin / Tool
@@ -122,10 +128,18 @@ brew install opencv
 brew install htop
 ```
 
+## C/C++
+```
+brew install gcc@6
+brew install gdb
+```
+### gdb setting
+Ref: https://stackoverflow.com/questions/18423124/please-check-gdb-is-codesigned-see-taskgated8-how-to-get-gdb-installed-w
+
 # TODO
 * R
 * PySpark
-* C/C++ Compiler and Debugger
 * How to install opencv python package
 * text editor encoding
 * git encoding
+* LaTex
