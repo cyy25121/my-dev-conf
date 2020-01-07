@@ -53,9 +53,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## Python
 以`Python 3.6`為主
 ```shell
-brew install python
+brew install python3
 brew install python@2
-pip3 install virtualenv
+pip3 install virtualenvwrapper
 ```
 ---
 
@@ -65,16 +65,6 @@ pip3 install virtualenv
 * 套件管理：`spf13`
 ```shell
 curl http://j.mp/spf13-vim3 -L -o - | sh
-```
-
-## Sublime
-* 簡潔且開啟速度又快的Text editor
-* 至官網下載
-* 安裝Package control：https://packagecontrol.io/installation
-
-在Terminal底下開啟`Sublime`的方法
-```
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
 
 ---
